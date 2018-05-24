@@ -1,0 +1,77 @@
+div.vl {
+    border-left: 2px solid #722ab9 ;
+    /* border-left: thick solid #ff0000; */
+    height: 30px;
+}
+.navbar-line{
+  border-bottom: 2px solid #722ab9;
+}
+color-text{
+  color: #722ab9;
+}
+div.vertical-line{
+      width: 1px; /* Line width */
+      background-color: black; /* Line color */
+      height: 100%; /* Override in-line if you want specific height. */
+      float: left; /* Causes the line to float to left of content.
+        You can instead use position:absolute or display:inline-block
+        if this fits better with your design */
+    }
+
+    .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+        background-color:  #5a2390 !important;
+        border-color:  #5a2390;
+    }
+
+    .btn-outline-primary, .btn-outline-primary:hover,
+    .btn-outline-primary:active, .btn-outline-primary:visited,
+    .btn-outline-primary:active:focus, .btn-outline-primary:active:hover,.btn-outline-primary:focus {
+        border-color:  #722ab9!important;
+        color:  #5a2390!important;
+    }
+
+    .btn-purple {
+  color: #5a2390;
+  background-color: #FFFFFF;
+  border-color: #722AB9;
+}
+
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active,
+.btn-purple.active,
+.open .dropdown-toggle.btn-purple {
+  color: #FFFFFF;
+  background-color: #5a2390;
+  border-color: #722AB9;
+}
+
+.btn-purple:active,
+.btn-purple.active,
+.open .dropdown-toggle.btn-purple {
+  background-image: none;
+}
+
+.btn-purple.disabled,
+.btn-purple[disabled],
+fieldset[disabled] .btn-purple,
+.btn-purple.disabled:hover,
+.btn-purple[disabled]:hover,
+fieldset[disabled] .btn-purple:hover,
+.btn-purple.disabled:focus,
+.btn-purple[disabled]:focus,
+fieldset[disabled] .btn-purple:focus,
+.btn-purple.disabled:active,
+.btn-purple[disabled]:active,
+fieldset[disabled] .btn-purple:active,
+.btn-purple.disabled.active,
+.btn-purple[disabled].active,
+fieldset[disabled] .btn-purple.active {
+  background-color: #FFFFFF;
+  border-color: #5a2390;
+}
+
+.btn-purple .badge {
+  color: #FFFFFF;
+  background-color: #5a2390;
+}

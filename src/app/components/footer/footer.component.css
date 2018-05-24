@@ -1,0 +1,8 @@
+.bottom-slide{
+  /* background-image:url("assets/brand-bg.png"); */
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(90, 35, 144, 0.73);
+  color:#ffffff;
+}

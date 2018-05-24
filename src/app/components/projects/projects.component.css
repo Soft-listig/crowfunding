@@ -1,0 +1,47 @@
+.slider{
+  background-image:url("../../../assets/brand-bg.png");
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.inverse-text{
+  color:#fafafa;
+}
+
+.proyect-card{
+  width: 18rem;
+  box-shadow: 1px 2px 1px gray;
+
+}
+
+.img-card{
+   border-bottom: 1px solid gray;
+}
+
+
+div.hr {
+  height: 5px;
+}
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 0.5rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
